@@ -1,0 +1,30 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--font-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--lighter-main-color);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin-left: 20px;
+}
+
+.item .active {
+  background-color: #fff;
+  color: var(--main-color);
+  border-radius: 20px;
+}

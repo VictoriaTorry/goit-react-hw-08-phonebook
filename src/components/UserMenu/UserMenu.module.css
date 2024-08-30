@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.useremail {
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: var(--second-color);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: var(--font-color);
+  margin: 0 auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-color);
+}

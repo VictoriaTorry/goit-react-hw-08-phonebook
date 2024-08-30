@@ -1,0 +1,16 @@
+.main {
+  text-align: center;
+  max-width: 400px;
+  margin: 100px auto 0;
+
+  padding: 30px;
+  background-color: var(--main-color);
+  border-radius: 55px;
+}
+
+.title {
+  display: block;
+  color: var(--font-color);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
